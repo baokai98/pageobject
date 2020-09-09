@@ -43,7 +43,7 @@ class TestConnact:
             afternum = mydelpag.get_result(name)
 
             assert afternum == 1
-
+        #这样执行时，能查到删除的联系人会通过，但是没有联系人时就会报错
         # mydelpag = self.main.gaoto_delresslist().click_search().click_searchname(name).open_memeber().dell_memeber().clicl_dell()
         #
         # afternum = mydelpag.get_result(name)
